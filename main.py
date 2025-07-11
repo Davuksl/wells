@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 processed_rooms = {}
 
-EXPIRATION_SECONDS = 600
+EXPIRATION_SECONDS = 60
 
 @app.route('/addroom', methods=['POST'])
 def add_room():
